@@ -1,0 +1,29 @@
+# Ignore Go build artifacts
+/bin/
+bin/
+/obj/
+
+# Ignore Go modules cache
+/pkg/
+pkg/
+# Go module dependencies, should be ignored if you're using Go modules
+/vendor/
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Go binary executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+go.mod
